@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Subscription</title>
     <link rel = "stylesheet" href ="design.css">
+    <script src = "script.js"></script>
 </head>
 <body id = "content">
     <div class =card>
@@ -12,9 +13,13 @@
         <p class = "main-text">
                 Email address
         </p>
-        <input class = "input" type = "text" value ="">
+        <form name = "Validation" onSubmit="return Validate()">
+            <input id = "email" class = "input" type = "text" value ="">
+        </form>
+        <p></p>
+        <button id = "validate" class = "card-button">Subscribe</button>
         <p id = "placeholder"></p>
-        <button class = "card-button">Subscribe</button>
+
     </div>
 </body>
 </html>
