@@ -5,21 +5,22 @@
     <meta charset="utf-8">
     <title>Subscription</title>
     <link rel = "stylesheet" href ="design.css">
-    <script src = "script.js"></script>
 </head>
 <body id = "content">
-    <div class =card>
+    <div class =card id = "box">
         <h1 id="main-header">Subscribe Now!</h1>
-        <p class = "main-text">
+        <p class = "main-text" id = "maintext" >
                 Email address
         </p>
-        <form name = "Validation" onSubmit="return Validate()">
-            <input id = "email" class = "input" type = "text" value ="">
-        </form>
-        <p></p>
-        <button id = "validate" class = "card-button">Subscribe</button>
-        <p id = "placeholder"></p>
+        <input id = "email" class = "input" type = "text" value ="">
+        <p id = "space"></p>
+        <p class = "message" id = "error"></p>
+        <button id = "sub" class = "card-button" >Subscribe</button>
 
     </div>
 </body>
+
+<script src = "script.js"></script>
+
 </html>
+
